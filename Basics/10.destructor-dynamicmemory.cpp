@@ -14,7 +14,7 @@ class Teacher{
 	~Teacher()
 	{
 		cout<<"I delete everything"<<endl;
-		delete cgpaptr;
+		delete cgpaptr;//delete keyword is used to deallocate dynamic memory
 	}
 	void getinfo()
 	{
