@@ -3,14 +3,14 @@
 using namespace std;
 class Parent{
 	public:
-		show()
+		void show()
 		{
 			cout<<"Parent class"<<endl;
 		}
 };
 class Child:public Parent{
 	public:
-		show()
+		void show()
 		{
 			cout<<"Child class"<<endl;
 		}
